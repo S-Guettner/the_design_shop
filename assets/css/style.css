@@ -23,34 +23,12 @@ body {
   padding-right: 3rem;
 }
 
-figure {
-  width: 28vw;
-  padding-bottom: 2rem;
-}
-
-.largeImgDiv {
-  display: flex;
-  justify-content: space-between;
-}
-
-.smallImg {
-  max-width: 100%;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-.smallImgDiv {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-.smallFigcaption {
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
+/* ========== header ========== */
+/* ========== header ========== */
+/* ========== header ========== */
+/* ========== main - article grid container ========== */
+/* ========== main - article grid container ========== */
+/* ========== main - article grid container ========== */
 .articleGridContainer {
   width: 100vw;
   max-width: 100%;
@@ -71,16 +49,47 @@ figure {
   padding-top: 2rem;
 }
 
-.test1 {
+/* ========== small article images ========== */
+/* ========== small article images ========== */
+/* ========== small article images ========== */
+.figureSmall {
+  width: 28vw;
+  padding-bottom: 2rem;
+}
+
+.smallImg {
+  max-width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.smallImgDiv {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.smallFigcaption {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* ========== large article images ========== */
+/* ========== large article images ========== */
+/* ========== large article images ========== */
+.largeImgDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.figureLarge {
   grid-column: 1/4;
   width: 94%;
 }
-.test1 .largeImg {
+.figureLarge .largeImg {
   max-width: 100%;
 }
-.test1 div {
-  max-width: 100%;
-}
-.test1 figure {
+.figureLarge div {
   max-width: 100%;
 }/*# sourceMappingURL=style.css.map */

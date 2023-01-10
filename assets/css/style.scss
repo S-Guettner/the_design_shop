@@ -26,17 +26,43 @@ body{
     padding-left: 3rem;
     padding-right: 3rem;
 }
-figure{
-    width: 28vw;
-    padding-bottom: 2rem;
+
+/* ========== header ========== */
+/* ========== header ========== */
+/* ========== header ========== */
+
+
+
+
+/* ========== main - article grid container ========== */
+/* ========== main - article grid container ========== */
+/* ========== main - article grid container ========== */
+.articleGridContainer{
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    padding-top: 2rem;
 }
+
+.articleGridContainerBottom{
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 1fr 0.5fr;
+    padding-top: 2rem;
+}
+
+/* ========== small article images ========== */
+/* ========== small article images ========== */
+/* ========== small article images ========== */
 .figureSmall{
-
-}
-
-.largeImgDiv{
-    display: flex;
-    justify-content: space-between;
+        width: 28vw;
+    padding-bottom: 2rem;
 }
 
 .smallImg{
@@ -56,29 +82,15 @@ figure{
     padding-left: 1rem;
 }
 
-
-.articleGridContainer{
-    width: 100vw;
-    max-width: 100%;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-
-    padding-top: 2rem;
-}
-.articleGridContainerBottom{
-    width: 100vw;
-    max-width: 100%;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: 1fr 0.5fr;
-
-    padding-top: 2rem;
+/* ========== large article images ========== */
+/* ========== large article images ========== */
+/* ========== large article images ========== */
+.largeImgDiv{
+    display: flex;
+    justify-content: space-between;
 }
 
-.test1{
+.figureLarge{
     grid-column: 1/4;
     width: 94%;
     .largeImg{
@@ -87,7 +99,5 @@ figure{
     div{
         max-width: 100%;
     }
-    figure{
-        max-width: 100%;
-    }
 }
+
