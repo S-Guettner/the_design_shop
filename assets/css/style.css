@@ -23,11 +23,12 @@ body {
 
 figure {
   width: 28vw;
-  max-width: 90vw;
+  height: auto;
+  /*     max-width:28vw; */
 }
 
-img {
-  width: 28vw;
+.smallImg {
+  max-width: 28vw;
 }
 
 div {
@@ -39,26 +40,26 @@ div {
   width: 100vw;
   max-width: 100%;
   display: grid;
-  /*     justify-items: center; */
+  justify-items: center;
   grid-template-columns: repeat(3, auto);
-  grid-template-rows: 1fr auto auto;
+  grid-template-rows: 1fr 1fr 1fr;
   /*     column-gap: .75rem; */
   /*     row-gap: .75rem; */
   padding-top: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
 }
 
 .test1 {
   grid-column: 1/4;
   width: 88vw;
 }
-.test1 img {
-  width: 87vw;
+.test1 .largeImg {
+  max-width: 87vw;
 }
 .test1 div {
-  width: 87vw;
+  max-width: 85vw;
 }
 .test1 figure {
-  width: 87vw;
+  max-width: 85vw;
 }/*# sourceMappingURL=style.css.map */
