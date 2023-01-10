@@ -67,6 +67,16 @@ figure{
 
     padding-top: 2rem;
 }
+.articleGridContainerBottom{
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 1fr 0.5fr;
+
+    padding-top: 2rem;
+}
 
 .test1{
     grid-column: 1/4;
