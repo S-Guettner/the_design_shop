@@ -17,17 +17,17 @@
 
 /* padding for white space */
 body {
-  padding-top: 2rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  display: flex;
+  justify-content: center;
 }
 
 figure {
-  width: 18rem;
+  width: 30vw;
+  max-width: 90vw;
 }
 
 img {
-  width: 18rem;
+  width: 30vw;
 }
 
 div {
@@ -37,18 +37,25 @@ div {
 
 .articleGridContainer {
   width: 100vw;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 1.5fr auto auto;
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
   row-gap: 0.75rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .test1 {
   grid-column: 1/4;
-  width: 100%;
+  width: 90vw;
 }
 .test1 img {
-  width: 100%;
+  width: 94vw;
+}
+.test1 div {
+  width: 94vw;
 }/*# sourceMappingURL=style.css.map */
