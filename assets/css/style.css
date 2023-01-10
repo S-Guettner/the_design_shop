@@ -25,7 +25,12 @@ body {
 
 figure {
   width: 28vw;
-  height: auto;
+  padding-bottom: 2rem;
+}
+
+.largeImgDiv {
+  display: flex;
+  justify-content: space-between;
 }
 
 .smallImg {
@@ -34,9 +39,16 @@ figure {
   padding-left: 1rem;
 }
 
-div {
+.smallImgDiv {
   display: flex;
   justify-content: space-between;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.smallFigcaption {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .articleGridContainer {
@@ -45,7 +57,7 @@ div {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(3, auto);
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
   padding-top: 2rem;
 }
 
