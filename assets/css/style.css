@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colors */
+/* fonts */
+@font-face {
+  font-family: "karla";
+  src: url(../fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
+}
+/* global */
+.fontKarla {
+  font-family: "karla";
+}
+
+/* padding for white space */
+body {
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+figure {
+  width: 18rem;
+}
+
+img {
+  width: 18rem;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleGridContainer {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 1.5fr auto auto;
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+  row-gap: 0.75rem;
+}
+
+.test1 {
+  grid-column: 1/4;
+  width: 100%;
+}
+.test1 img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
