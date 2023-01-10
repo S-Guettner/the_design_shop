@@ -19,10 +19,25 @@ $darkblue : #323A45;
     font-family: "karla";
 }
 
+p{
+    font-family: "karla";
+    color:$darkblue;
+}
+
+a{
+    font-weight: bold;
+    font-family: "karla";
+}
+
+figcaption{
+    font-family: "karla";
+    color:$darkgrey;
+}
+
 /* padding for white space */
 body{
-    display: flex;
-    justify-content: center;
+/*     display: flex;
+    justify-content: center; */
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -31,8 +46,28 @@ body{
 /* ========== header ========== */
 /* ========== header ========== */
 
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-left:2.8rem ;
+    padding-right: 2.8rem;
+}
 
+.logo{
+    font-weight: bold;
+}
 
+.navLarge{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
 
 /* ========== main - article grid container ========== */
 /* ========== main - article grid container ========== */
